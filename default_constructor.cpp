@@ -14,6 +14,8 @@ public:
     // 1. no return type
     // 2. invoke when object created
     // 3. no input/output
+
+    // it's a default constructor
     suer_powers()
     {
         cout << "This is calling from user define constructor" << endl;
