@@ -7,15 +7,21 @@ public:
     int power;
     char level;
 
+    // simple constructor
+    super_hero()
+    {
+        cout << "Simple constructor" << endl;
+    }
+
+    // parameterized constructor
     super_hero(int power, char level)
     {
-        cout << "Default constructor called " << endl;
+        cout << "parameterized constructor called " << endl;
         this->power = power;
         this->level = level;
     }
 
-    // my custom constructor
-
+    // copy constructor
     super_hero(super_hero &custom)
     {
         cout << "Copy constructor called" << endl;
