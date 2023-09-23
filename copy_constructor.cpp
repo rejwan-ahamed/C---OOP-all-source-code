@@ -38,6 +38,7 @@ public:
 
 int main()
 {
+    // parameterized constructor
     super_hero r(67, 'A');
     r.print();
 
@@ -45,9 +46,11 @@ int main()
     super_hero s(r);
     s.print();
 
+    // parameterized constructor
     super_hero delta(89, 'A');
     delta.print();
 
+    // copy constructor
     super_hero alpha(delta);
     alpha.print();
 
