@@ -8,6 +8,8 @@
    2. behaver
    3. function
 
+\*\*\*\* padding and greedy alignment
+
 3. access modifier
    \*\* there are 3 types of access modifier
 
@@ -32,8 +34,15 @@
 
 8. destructor
 
+   1. static allocation
+   2. dynamic allocation
+
 9. static keyword
 
 10. static function
 
 11. this keyword
+
+<!-- note link here to. Check it to understand better documentation -->
+
+link: https://www.codingninjas.com/studio/guided-paths/oops-in-c
