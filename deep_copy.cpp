@@ -64,8 +64,11 @@ int main()
     cout << endl;
 
     alpha1.name[0] = 'p';
+    alpha1.level = 'D';
     cout << "Default object name: " << alpha1.name << endl;
     cout << "copy Default object name: " << alpha2.name << endl;
+    cout << "Default object level: " << alpha1.level << endl;
+    cout << "copy Default object level: " << alpha2.level << endl;
     
     return 0;
 }
