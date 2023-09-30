@@ -10,7 +10,10 @@ public:
 };
 
 // initialize a static data type (::)-> scope regulation operator
-int super_hero ::time_to_complete = 5;
+// syntax--> data tye, class name, scope regulator operator, child property name;
+// we need to init static outside of the scope to use the the static variable
+
+int super_hero ::time_to_complete;
 
 int main()
 {
