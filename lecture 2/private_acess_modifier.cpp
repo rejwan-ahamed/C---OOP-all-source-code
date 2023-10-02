@@ -14,7 +14,7 @@ public:
     male()
     {
 
-        cout << name << enget_agedl;
+        cout << name << endl;
         cout << "testing";
     }
     int get_age()
@@ -26,7 +26,7 @@ public:
 int main()
 {
     male azer;
-    cout<<azer.get_age();
+    cout << azer.get_age();
 
     return 0;
 }
