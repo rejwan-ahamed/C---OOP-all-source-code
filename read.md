@@ -49,25 +49,25 @@ link: https://www.codingninjas.com/studio/guided-paths/oops-in-c
 
 <!-- lecture 2 all topics -->
 
-11. Encapsulation (wrapping out the data members and function into class)
+12. Encapsulation (wrapping out the data members and function into class)
 
-12. Full encapsulation (wrapping out all data members in private access modifier)
+13. Full encapsulation (wrapping out all data members in private access modifier)
 
-13. inheritance
+14. inheritance
 
-14. single inheritance
+15. single inheritance
 
-15. multilevel inheritance
+16. multilevel inheritance
 
-16. multiple inheritance
+17. multiple inheritance
 
-17. hierarchical inheritance
+18. hierarchical inheritance
 
-18. hybrid inheritance
+19. hybrid inheritance
 
-19. inheritance ambiguity
+20. inheritance ambiguity
 
-20. polymorphism
+21. polymorphism
 
     1. compile time
 
@@ -76,4 +76,4 @@ link: https://www.codingninjas.com/studio/guided-paths/oops-in-c
 
     2. runtime
 
-21. Abstraction
+22. Abstraction
