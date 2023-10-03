@@ -1,36 +1,45 @@
 #include <iostream>
 using namespace std;
 
-class B
+class super_class
 {
 public:
     int a;
     int b;
 
-    void operator+(B &obj)
+    void operator+(super_class &custom)
     {
-        int value1 = this->a; // curent object
-        int value2 = obj.a;
+        cout << "output is: " << this->a - custom.a << endl;
+    }
 
-        cout << "output is: " << value2 - value1 << endl;
-        cout << "Hello Rejwan Ahamed" << endl;
+    void operator*()
+    {
+        cout << "Hi I am a pointer" << endl;
+    }
+
+    void operator-()
+    {
+        cout << "Hi I am a decrement" << endl;
     }
 
     void operator()()
     {
-        cout << "Testing the overload operator" << endl;
+        cout << "Hi I am first bracket" << endl;
     }
 };
 
 int main()
 {
 
-    B obj1, obj2;
+    super_class obj1, obj2;
 
     obj1.a = 4;
-    obj2.a = 7;
+    obj2.a = 2;
+
     obj1 + obj2;
 
+    *obj1;
+    -obj1;
     obj1();
 
     return 0;
